@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color:rgba(198, 54, 53);
+    color: rgb(244, 255, 255);
+    padding: 0 20px 0 20px;
+}
+
+.icon-heart {
+    height: 20px;
+    float: left;
+    padding: 0;
+    padding-right: 30px;
+    padding-top: 12px;
+}
+
+.nav-bar-list {
+    list-style: none;
+    position: relative;
+    padding-top: 12px;
+    right: 30px;
+    position: absolute;
+}
+
+.nav-bar-list-item {
+    float: left;
+    padding-left: 30px;
+
+}
+
+.nav-bar-list-link {
+    text-decoration: none;
+    color: rgb(244, 255, 255);
+}
+
+.nav-bar-title {
+    float: left;
+    padding-top: 12px;
+}
+
+.header {
+    background-image: url("../images/city-scape.svg");
+    height: 500px;
+    padding: 10px 10px 0 12px;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+
+}
+
+.search-box {
+    float: left;
+    width: 1020px;
+    padding: 8.5px;
+    background-color: rgb(28, 78, 104);
+    border-width: 0.5px;
+    border-color: rgb(244, 255, 255);
+    margin: 0 0 0 20px;
+    font-size: 17px;
+
+
+}
+
+.button-search {
+    float: left;
+    margin: 0 20px 0 0;
+
+}
+
+
+.icon-search {
+    float: left;
+    width: 12px;
+    padding: 12px;
+    background-color: rgb(28, 78, 104);
+    border-color: rgb(80, 116, 146);
+    border: 0;
+}
+
+.sign-up-bear {
+    float: left;
+    color: rgb(244, 255, 255);
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(201, 223, 240);
+
+
+}
+
+.list-sign-up-bear {
+    list-style: none;
+
+}
+
+.image-bear {
+    width: 30px;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bear {
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(244, 255, 255);
+    padding: 100px 0 30px 170px;
+}
+
+.subtitle {
+    color: rgb(244, 255, 255);
+    font-size: 22px;
+    padding: 0px 0 30px 170px;
+    width: 650px;
+}
+
+.button-signup{
+    padding: 5px;
+    margin: 0px 20px 0px 170px;
+    border-radius: 25px;
+    color: rgb(244, 255, 255);
+    font-size: 22px;
+    background-color: rgb(255, 152, 0);
+    width: 230px;
+    border: 0;
+    height: 50px;
+}
+
+.section-npm-orgs {
+    background-color: #051d31d4;
+    height: 500px;
+}
+
+.image-team {
+    width: 32%;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+
+.title-orgs {
+    width: 60%;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.list-orgs {
+    margin-left: 40px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.container-text-orgs {
+    float: left;
+    margin-left: 70px;
+    margin-top: 105px;
+    color: rgb(244, 255, 255);
+}
+
+.sign-up-button {
+    background-color: rgb(203, 56, 55);
+    color: rgb(244, 255, 255);
+    height: 45px;
+    width: 220px;
+    border-radius: 19px;
+    border: none;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link-learn-more{
+    text-decoration: none;
+    color: rgb(244, 255, 255);
+}
+
+.what-is-npm {
+    background-image:  url('../images/forklift.svg');
+   height: 600px;
+     
+}
+
+.what-is-npm-title{
+    padding: 90px 0 30px 100px;
+    font-size: 45px;
+    color: rgb(244, 255, 255);
+}
+
+.what-is-npm-subtitle{
+    padding: 0px 0 30px 99px;
+    width: 410px;
+    color: rgb(244, 255, 255);
+}
+.what-is-npm-button{
+    padding: 5px;
+    padding: 0px;
+    margin: 0px 20px 0px 100px;
+    border-radius: 25px;
+    color: rgb(244, 255, 255);
+    font-size: 20px;
+    background-color: rgb(51, 60, 76);
+    width: 180px;
+    border: 0;
+    height: 45px;
+}
+
+.blocks {
+    text-align: center;
+    padding: 0 180px 20px 180px;
+}
+
+.blocks-title{
+    display: block;
+    padding: 80px 0px 30px 0;
+    font-weight: bold;
+    color: rgb(86, 88, 96);
+}
+
+.blocks-subtitle {
+    padding-bottom: 30px;
+    color: rgb(86, 88, 96);
+}
+
+.block-item {
+    float: left;
+    width: 30%;
+}
+
+.block-item-center {
+    float: left;
+    width: 30%;
+    margin: 0 5%;    
+}
+
+.link-red {
+    text-decoration: none;
+    color: red;
+}
+
+.block-h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(86, 88, 96);
+}
+
+.block-paragraph {
+    padding-top: 20px;
+    color: rgb(86, 88, 96);
+}
+
+.block-image {
+    width: 135px;
+}
